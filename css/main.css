@@ -1,11 +1,11 @@
 /*====== Site Styling ======*/
 
 a {
-  color: #0655A3;
+  color: #F67512;
 }
 
 a:hover {
-  color: #263156;
+  color: #DA6B16;
 }
 
 .branding .badge {
@@ -24,7 +24,7 @@ a:hover {
 
 .navbar-brand img {
   text-align: center;
-  width: 50px;
+  width: 40px;
 }
 
 .navbar-sml {
@@ -129,27 +129,27 @@ a:hover {
 }
 
 .text-primary {
-  color: #0655A3 !important;
+  color: #F67512 !important;
 }
 
 .bg-primary {
-  background-color: #0655A3 !important;
+  background-color: #F67512 !important;
 }
 
 .section-title:after {
-  background-color: #0655A3 !important;
+  background-color: #F67512 !important;
 }
 
 .btn-primary {
   color: #fff !important;
-  border-color: #0655A3 !important;
-  background-color: #0655A3 !important;
+  border-color: #F67512 !important;
+  background-color: #F67512 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  border-color: #263156 !important;
-  background-color: #263156 !important;
+  border-color: #DA6B16 !important;
+  background-color: #DA6B16 !important;
 }
 
 .form-group .col-lg-5,
@@ -205,8 +205,15 @@ a:hover {
   width: 640px;
 }
 
+.text-muted {
+  color: #ececec!important;
+  }
+
 .bg-img {
-  background: url(../images/welcome-cover.jpg) no-repeat center center fixed;
+  background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-size: cover;
   }
 
@@ -214,7 +221,10 @@ a:hover {
   position: relative;
   height: 50vh;
   min-height: 500px;
-  background: url(../images/welcome-cover.jpg) no-repeat center center fixed;
+  background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   background-size: cover;
   }
 
