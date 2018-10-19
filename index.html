@@ -1,190 +1,200 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Mango Creative</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- CSS Dependencies -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/shards.min.css?version=2.0.0">
-        <link rel="stylesheet" href="css/shards-extras.min.css?version=2.0.0">
-        <link rel="stylesheet" href="css/main.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mango Creative</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script src="https://js.stripe.com/v3/"></script>
-    </head>
-    <body>
-      <!-- Welcome Section -->
-      <div class="welcome d-flex justify-content-center flex-column">
-        <div class="container">
-          <!-- Navigation -->
-          <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
-            <a class="navbar-brand mr-3" href="#">
-              <img src="images/hexagon.svg" class="mr-2" alt="Shards - Agency Landing Page">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#pricing">Pricing</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-              </ul>
+  <!-- CSS Dependencies -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/shards.min.css?version=2.0.0">
+  <link rel="stylesheet" href="css/shards-extras.min.css?version=2.0.0">
+  <link rel="stylesheet" href="css/main.css">
 
-              <!-- Social Icons -->
-              <ul class="d-none d-md-block header-social-icons navbar-nav ml-auto">
-                  <li class="nav-item">
-                      <a class="nav-link" href="tel:4048916248">(404) 891-6248</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://linked-in.com/"><i class="fab fa-linkedin"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/"><i class="fab fa-github"></i></a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <!-- / Navigation -->
-        </div> <!-- .container -->
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
 
-        
+<body>
+  <!-- Welcome Section -->
+  <div class="welcome d-flex justify-content-center flex-column">
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0">
+        <a class="navbar-brand mr-3" href="index.html">
+          <img src="images/hexagon.svg" class="mr-2" alt="Shards - Agency Landing Page">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#enquiry">Contact</a>
+            </li>
+          </ul>
 
-        <!-- Inner Wrapper -->
-        <div class="inner-wrapper mt-auto mb-auto container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 mt-auto mb-auto mr-3">
-                <h1 class="welcome-heading display-4 text-white">Design for the web, beautifully</h1>
-                <p class="text-muted">Get a stunning website with an innovative build to help you convert, letting you do what you do best. While we take care of your lead capture.</p>
-                <a href="#contact" class="btn btn-lg btn-white btn-pill align-self-center">Request a quote</a>
-            </div>
-          </div>
+          <!-- Social Icons -->
+          <ul class="d-none d-md-block header-social-icons navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="tel:4048916248">(404) 891-6248</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://linked-in.com/"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
         </div>
-        <!-- / Inner Wrapper -->
-      </div>
-      <!-- / Welcome Section -->
+      </nav>
+      <!-- / Navigation -->
+    </div> <!-- .container -->
 
-        <!-- Our Services Section -->
+
+
+    <!-- Inner Wrapper -->
+    <div class="inner-wrapper mt-auto mb-auto container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-auto mb-auto">
+          <h1 class="welcome-heading display-4 text-white">Design for the web, beautifully</h1>
+          <p class="text-muted">Get a stunning website with an innovative build to help you convert, letting you do
+            what you do best. While we take care of your lead capture.</p>
+          <a href="#enquiry" class="btn btn-lg btn-white btn-pill align-self-center">Request a quote</a>
+        </div>
+      </div>
+    </div>
+    <!-- / Inner Wrapper -->
+  </div>
+  <!-- / Welcome Section -->
+
+  <!-- Our Services Section -->
   <div id="services" class="our-services section py-2">
-        <!-- Features -->
-        <div class="features py-4">
-          <div class="container">
-            <div class="row">
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-file-code"></i></div>
-                <div class="px-3">
-                  <h5>Responsive Design</h5>
-                  <p>A website is now standard for every company. It is vital to have a user journey that works on desktop and mobile.
-                  </p>
-                </div>
-              </div>
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-mobile-alt"></i></div>
-                <div class="px-3">
-                  <h5>Mobile Optimised</h5>
-                  <p>Fully functional, mobile first web design - giving you the ability to appeal to your prospects on all devices.
-                  </p>
-                </div>
-              </div>
+    <!-- Features -->
+    <div class="features py-4">
+      <div class="container">
+        <div class="row">
+          <div class="feature py-4 col-md-6 d-flex">
+            <div class="icon text-primary mr-3"><i class="fa fa-file-code"></i></div>
+            <div class="px-3">
+              <h5>Responsive Design</h5>
+              <p>A website is now standard for every company. It is vital to have a user journey that works on desktop
+                and mobile.
+              </p>
             </div>
-    
-            <div class="row">
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-user-circle"></i></div>
-                <div class="px-3">
-                  <h5>Content Management</h5>
-                  <p>Scalable content management system to allow update and integration. SEO optimisation and media library included. 
-                  </p>
-                </div>
-              </div>
-              <div class="feature py-4 col-md-6 d-flex">
-                <div class="icon text-primary mr-3"><i class="fa fa-cog"></i></div>
-                <div class="px-3">
-                  <h5>Data Analytics</h5>
-                  <p>Google Analytics integration including customised goals, Facebook pixel for enhanced customer tracking.
-                  </p>
-                </div>
-              </div>
+          </div>
+          <div class="feature py-4 col-md-6 d-flex">
+            <div class="icon text-primary mr-3"><i class="fa fa-mobile-alt"></i></div>
+            <div class="px-3">
+              <h5>Mobile Optimised</h5>
+              <p>Fully functional, mobile first web design - giving you the ability to appeal to your prospects on all
+                devices.
+              </p>
             </div>
           </div>
         </div>
-        <!-- / Features -->
-      </div>
-      <!-- / Our Services Section -->
-    
-      <div id="portfolio" class="section showcase">
-        <div class="container-fluid p-0">
-            <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/virgin-item.jpg');"></div>
-                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                  <img src="images/virgin-alt-logo.png" class="portfolio-logo mb-4 mr-2" alt="Virgin">
-                  <p class="lead mb-0">Responsible for the Virgin Business site build and UX design, predicated on transforming the customers online journey.</p>
-                  <a class="btn btn-primary btn-pill mt-4" href="https://www.virginmediabusiness.co.uk">Check It Out &rarr;</a>
-                </div>
-              </div>
-              <div class="row no-gutters">
-                <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/yell-item.jpg');"></div>
-                <div class="col-lg-6 my-auto showcase-text">
-                  <!--<h2>Elemental</h2>-->
-                  <img src="images/yell-alt-logo.png" class="portfolio-logo mb-3 mr-2" alt="Yell">
-                  <p class="lead mb-0">Structured rebrand and consumer application implementation alongside. To capitalise on user behaviour with mobile centric design and UI. </p>
-                  <a class="btn btn-primary btn-pill mt-4" href="https://www.yell.com">Check It Out &rarr;</a>
-                </div>
-              </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/visionary-item.jpg');"></div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              <img src="images/visionary-logo.png" class="portfolio-logo mb-4 mr-2" alt="Visionary Clothing">
-              <p class="lead mb-0">Visionary set out to merge the clothing industry with night life aesthetics. I was able to help them achieve a sleek, youthful design, with a total revamp of the Visionary Clothing store theme.</p>
-              <a class="btn btn-primary btn-pill mt-4" href="https://www.visionarycph.com">Check It Out &rarr;</a>
+
+        <div class="row">
+          <div class="feature py-4 col-md-6 d-flex">
+            <div class="icon text-primary mr-3"><i class="fa fa-user-circle"></i></div>
+            <div class="px-3">
+              <h5>Content Management</h5>
+              <p>Scalable content management system to allow update and integration. SEO optimisation and media library
+                included.
+              </p>
             </div>
           </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/elemental-item.jpg');"></div>
-            <div class="col-lg-6 my-auto showcase-text">
-              <!--<h2>Elemental</h2>-->
-              <img src="images/elemental-logo.svg" class="portfolio-logo mb-3 mr-2" alt="WeAreElemental">
-              <p class="lead mb-0">Unique site build and design for a UK based digital marketing agency, offering the
-                ability to update blogs news and case studies.</p>
-              <a class="btn btn-primary btn-pill mt-4" href="https://www.weareelemental.uk">Check It Out &rarr;</a>
+          <div class="feature py-4 col-md-6 d-flex">
+            <div class="icon text-primary mr-3"><i class="fa fa-cog"></i></div>
+            <div class="px-3">
+              <h5>Data Analytics</h5>
+              <p>Google Analytics integration including customised goals, Facebook pixel for enhanced customer
+                tracking.
+              </p>
             </div>
           </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/medilogik-item.jpg');"></div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              <!--<h2>Medilogik</h2>-->
-              <img src="images/medilogik-logo.png" class="portfolio-logo mb-4 mr-2" alt="Medilogik EMS">
-              <p class="lead mb-0">Developed the front facing site for Medilogik EMS, a clean rebrand and responsive
-                website built to help gain more clients.</p>
-              <a class="btn btn-primary btn-pill mt-4" href="https://www.medilogik.com">Check It Out &rarr;</a>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/epro-item.jpg');"></div>
-            <div class="col-lg-6 my-auto showcase-text">
-              <!--<h2>Elemental</h2>-->
-              <img src="images/epro-logo.svg" class="portfolio-logo mb-3 mr-2" alt="WeAreElemental">
-              <p class="lead mb-0">Unique site build and design for a UK based digital marketing agency, offering the
-                ability to update blogs news and case studies.</p>
-              <a class="btn btn-primary btn-pill mt-4" href="https://www.weareelemental.uk">Check It Out &rarr;</a>
-            </div>
-          </div>
-    
         </div>
       </div>
+    </div>
+    <!-- / Features -->
+  </div>
+  <!-- / Our Services Section -->
+
+  <div id="portfolio" class="section showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/virgin-item.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <img src="images/virgin-alt-logo.png" class="portfolio-logo mb-4 mr-2" alt="Virgin">
+          <p class="lead mb-0">Responsible for the Virgin Business site build and UX design, predicated on transforming
+            the customers online journey.</p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.virginmediabusiness.co.uk">Check It Out &rarr;</a>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/yell-item.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <!--<h2>Elemental</h2>-->
+          <img src="images/yell-alt-logo.png" class="portfolio-logo mb-3 mr-2" alt="Yell">
+          <p class="lead mb-0">Structured rebrand and consumer application implementation alongside. To capitalise on
+            user behaviour with mobile centric design and UI. </p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.yell.com">Check It Out &rarr;</a>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/visionary-item.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <img src="images/visionary-logo.png" class="portfolio-logo mb-4 mr-2" alt="Visionary Clothing">
+          <p class="lead mb-0">Visionary set out to merge the clothing industry with night life aesthetics. I was able
+            to help them achieve a sleek, youthful design, with a total revamp of the Visionary Clothing store theme.</p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.visionarycph.com">Check It Out &rarr;</a>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/elemental-item.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <!--<h2>Elemental</h2>-->
+          <img src="images/elemental-logo.svg" class="portfolio-logo mb-3 mr-2" alt="WeAreElemental">
+          <p class="lead mb-0">Unique site build and design for a UK based digital marketing agency, offering the
+            ability to update blogs news and case studies.</p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.weareelemental.uk">Check It Out &rarr;</a>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/medilogik-item.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <!--<h2>Medilogik</h2>-->
+          <img src="images/medilogik-logo.png" class="portfolio-logo mb-4 mr-2" alt="Medilogik EMS">
+          <p class="lead mb-0">Developed the front facing site for Medilogik EMS, a clean rebrand and responsive
+            website built to help gain more clients.</p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.medilogik.com">Check It Out &rarr;</a>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/epro-item.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <!--<h2>Elemental</h2>-->
+          <img src="images/epro-logo.svg" class="portfolio-logo mb-3 mr-2" alt="WeAreElemental">
+          <p class="lead mb-0">Unique site build and design for a UK based digital marketing agency, offering the
+            ability to update blogs news and case studies.</p>
+          <a class="btn btn-primary btn-pill mt-4" href="https://www.weareelemental.uk">Check It Out &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 
   <div class="clients section mx-auto py-4">
@@ -205,43 +215,10 @@
       </div>
     </div>
   </div>
-    
-      <!-- Testimonials Section -->
-      <div class="testimonials section py-4">
-        
-          <div class="container py-5">
-            <div class="row">
-                <div class="col-md-4 testimonial text-center">
-                 
-                    <h5 class="mb-1">Stephen Wind-Mozeley</h5>
-                    <span class="text-grey d-block mb-2">Director at Virgin Media Business</span>
-                    <p>Our new website has played a big part in our journey to transform online customer experiences.</p>
-                    <a href="https://www.linkedin.com/in/winmoz/"><i class="fab fa-linkedin"></i></a>
-                </div>
 
-                <div class="col-md-4 testimonial text-center">
-            
-                    <h5 class="mb-1">Graham Beale</h5>
-                    <span class="text-grey d-block mb-2">Lead UX at Yell</span>
-                    <p>Successful relaunch of the Yell rebrand. Rapid design iterations have helped to support the wider dialougues in the business.</p>
-                    <a href="https://www.linkedin.com/in/grahambeale/"><i class="fab fa-linkedin"></i></a>
-                </div>
 
-                <div class="col-md-4 testimonial text-center">
-                    
-                    <h5 class="mb-1">Chris Marsom</h5>
-                    <span class="text-grey d-block mb-2">Marketing Manager at Elemental</span>
-                    <p>Continually impressed, as a result we have some really stylish and importantly functional websites.</p>
-                    <a href="https://www.linkedin.com/in/chris-marsom/"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-          </div>
-      </div>
-      
-      <!-- / Testimonials Section -->
-
-      <!-- Our Blog Section -->
-      <!--<div class="blog section section-invert py-4">
+  <!-- Our Blog Section -->
+  <!--<div class="blog section section-invert py-4">
         <h3 class="section-title text-center m-5">Latest Posts</h3>
         <div class="container">
           <div class="py-4">
@@ -284,12 +261,12 @@
           </div>
         </div>
       </div>-->
-      <!-- / Our Blog Section -->
+  <!-- / Our Blog Section -->
 
-      <!-- Subscribe Section -->
-      <div id="pricing" class="subscribe section bg-img py-4">
-            <h3 class="section-title text-white text-center m-5">Pricing</h3>
-            <div class="container mb-5 mt-5">
+  <!-- Subscribe Section -->
+  <div id="pricing" class="subscribe section bg-img py-4">
+    <h3 class="section-title text-white text-center m-5">Pricing</h3>
+    <!--<div class="container mb-5 mt-5">
                     <div class="pricing card-deck flex-column flex-md-row mb-3">
                       <div class="card card-pricing text-center px-3 mb-4">
                         <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Landing Page</span>
@@ -347,209 +324,364 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-      </div>
-      <!-- / Subscribe Section -->
-      
-       <!-- Modal -->
-  <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="paymentModal">Payment Options</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+                  </div>-->
+    <div class="container py-4 mb-4">
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card pricing-table">
+            <div class="pricing-header">
+              <div class="pt-price">$997</div>
+              <div class="pt-name">Mango Lander</div>
             </div>
-            <article class="card">
-              <div class="card-body">
-    
-                <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#nav-tab-card" data-scroll-ignore>
-                      <i class="fa fa-credit-card"></i> Credit Card</a></li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal" data-scroll-ignore>
-                      <i class="fab fa-paypal"></i> Paypal</a></li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#nav-tab-bank" data-scroll-ignore>
-                      <i class="fa fa-university"></i> Bank Transfer</a></li>
-                </ul>
-    
-                <div class="tab-content">
-                  <div class="tab-pane fade show active" id="nav-tab-card">
-                    <p class="d-none alert alert-success">Some text success or error</p>
-                    <form role="form">
-                      <!-- Name On Card
+            <div class="pricing-body">
+              <ul class="text-center">
+                <li>Unlimited landing pages</li>
+                <li>1 year hosting</li>
+                <li>Connect your domain</li>
+                <li>Autoresponder enabled</li>
+                <li>CMS enabled</li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <button type="button" class="btn btn-pill btn-outline-secondary mb-3" data-toggle="modal" data-price="997"
+                data-target="#paymentModal">Order
+                now
+              </button>
+              <ul class="credit-cards">
+                <li class="cc-icons"><i class="fab fa-cc-visa fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-mastercard fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-paypal fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-amex fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-discover fa-2x"></i></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card pricing-table featured">
+            <div class="pricing-header">
+              <div class="pt-price">$4997*</div>
+              <div class="pt-name">Custom Site</div>
+              <div class="bg-img featured-text">Starts From</div>
+            </div>
+            <div class="pricing-body">
+              <ul class="text-center">
+                <li>Built to specification</li>
+                <li>1 year hosting</li>
+                <li>Email marketing</li>
+                <li>SEO optimisation</li>
+                <li>CMS enabled</li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <a href="#enquiry"><button type="button" class="btn btn-pill btn-primary mb-3">Request quote
+                </button></a>
+              <ul class="credit-cards">
+                <li class="cc-icons"><i class="fab fa-cc-visa fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-mastercard fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-paypal fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-amex fa-2x"></i></li>
+                <li class="cc-icons"><i class="fab fa-cc-discover fa-2x"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- / Subscribe Section -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="paymentModal" tabindex="-1" role="dialog" aria-labelledby="paymentModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="paymentModal">Payment Options</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <article class="card">
+          <div class="card-body">
+
+            <ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#nav-tab-card" data-scroll-ignore>
+                  <i class="fa fa-credit-card"></i> Credit Card</a></li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#nav-tab-paypal" data-scroll-ignore>
+                  <i class="fab fa-paypal"></i> Paypal</a></li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#nav-tab-bank" data-scroll-ignore>
+                  <i class="fa fa-university"></i> Bank Transfer</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="nav-tab-card">
+                <p class="d-none alert alert-success">Some text success or error</p>
+                <form role="form">
+                  <!-- Name On Card
                        
                        <div class="form-group">
                        <label for="username">Full name (on the card)</label>
                        <input type="text" class="form-control" placeholder="Full Name" name="username" placeholder="" required="">
                      </div> -->
-                      <!-- form-group.// -->
-    
+                  <!-- form-group.// -->
+
+                  <div class="form-group">
+                    <label for="cardNumber">Card number</label>
+                    <div class="input-group">
+                      <div class="form-control" id="cardNumber"></div>
+                      <div class="input-group-append">
+                        <span class="input-group-text text-muted">
+                          <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>
+                          <i class="fab fa-cc-mastercard"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div> <!-- form-group.// -->
+
+                  <div class="row">
+                    <div class="col-sm-8">
                       <div class="form-group">
-                        <label for="cardNumber">Card number</label>
+                        <label><span class="hidden-xs">Expiration</span> </label>
                         <div class="input-group">
-                          <div class="form-control" id="cardNumber"></div>
-                          <div class="input-group-append">
-                            <span class="input-group-text text-muted">
-                              <i class="fab fa-cc-visa"></i>   <i class="fab fa-cc-amex"></i>
-                              <i class="fab fa-cc-mastercard"></i>
-                            </span>
-                          </div>
+                          <div class="form-control" id="cardExpiry"></div>
                         </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVC
+                          <i class="fa fa-question-circle"></i></label>
+                        <div class="form-control" id="cardCVC"></div>
                       </div> <!-- form-group.// -->
-    
-                      <div class="row">
-                        <div class="col-sm-8">
-                          <div class="form-group">
-                            <label><span class="hidden-xs">Expiration</span> </label>
-                            <div class="input-group">
-                              <div class="form-control" id="cardExpiry"></div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <div class="form-group">
-                            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVC
-                              <i class="fa fa-question-circle"></i></label>
-                            <div class="form-control" id="cardCVC"></div>
-                          </div> <!-- form-group.// -->
-                        </div>
-                      </div> <!-- row.// -->
-                      <div class="form-group">
-                        <label><span class="hidden-xs">Amount</span> </label>
-                        <div class="input-group">
+                    </div>
+                  </div> <!-- row.// -->
+                  <div class="form-group">
+                    <label><span class="hidden-xs">Amount</span> </label>
+                    <div class="input-group">
+                      <div class="input-group-prepend"><span class="input-group-text">$</span></div>
+                      <input type="text" class="form-control text-right" id="modalPrice" placeholder="0" disabled>
+                      <div class="input-group-append"><span class="input-group-text">.00</span></div>
+                    </div>
+                  </div>
+                  <button id="paymentSubmit" data-amount="45" class="subscribe btn btn-primary btn-block" type="button">
+                    Confirm </button>
+                  <div class="text-center mt-3">
+                    <small><i class="fa fa-lock"></i> Secured with 256-bit encryption</small>
+                  </div>
+                </form>
+              </div> <!-- tab-pane.// -->
+              <div class="tab-pane fade" id="nav-tab-paypal">
+                <p>Paypal is the easiest way to pay online</p>
+                <p>
+
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NKNBNTTPJBLXC">
+                    <button name="submit" class="btn btn-primary"> <i class="fab fa-paypal"></i> Pay via Paypal
+                    </button>
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </p>
+                <!--<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor
+                      incididunt ut labore et dolore magna aliqua. </p>-->
+              </div>
+              <div class="tab-pane fade" id="nav-tab-bank">
+                <p>Bank account details</p>
+                <dl class="param">
+                  <dt>BANK: </dt>
+                  <dd>LLOYDS BANK</dd>
+                </dl>
+                <dl class="param">
+                  <dt>Account number: </dt>
+                  <dd>34348860</dd>
+                </dl>
+                <dl class="param">
+                  <dt>IBAN: </dt>
+                  <dd>GB68LOYD30667734348860</dd>
+                </dl>
+                <dl class="param">
+                  <dt>BIC: </dt>
+                  <dd>LOYDGB21694</dd>
+                </dl>
+                <dl class="param">
+                  <dt>PAYMENT REFERENCE: </dt>
+                  <dd>CONSULTING</dd>
+                </dl>
+                <!--<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor
+                      incididunt ut labore et dolore magna aliqua. </p>-->
+              </div> <!-- tab-pane.// -->
+            </div> <!-- tab-content .// -->
+
+          </div> <!-- card-body.// -->
+        </article> <!-- card.// -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Testimonials Section -->
+  <div class="testimonials section py-4">
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4 testimonial text-center">
+
+          <h5 class="mb-1">Stephen Wind-Mozeley</h5>
+          <span class="text-grey d-block mb-2">Director at Virgin Media Business</span>
+          <p>Our new website has played a big part in our journey to transform online customer experiences.</p>
+          <a href="https://www.linkedin.com/in/winmoz/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="col-md-4 testimonial text-center">
+
+          <h5 class="mb-1">Graham Beale</h5>
+          <span class="text-grey d-block mb-2">Lead UX at Yell</span>
+          <p>Successful relaunch of the Yell rebrand. Rapid design iterations have helped to support the wider
+            dialougues in the business.</p>
+          <a href="https://www.linkedin.com/in/grahambeale/"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="col-md-4 testimonial text-center">
+
+          <h5 class="mb-1">Chris Marsom</h5>
+          <span class="text-grey d-block mb-2">Marketing Manager at Elemental</span>
+          <p>Continually impressed, as a result we have some really stylish and importantly functional websites.</p>
+          <a href="https://www.linkedin.com/in/chris-marsom/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- / Testimonials Section -->
+
+  <!-- Contact Section -->
+  <div id="enquiry" class="contact section-invert py-4">
+    <h3 class="section-title text-center m-5">Request Quote</h3>
+    <div class="container py-4">
+      <div class="row justify-content-md-center px-4">
+        <div class="contact-form col-sm-12 col-md-10 col-lg-8 p-4 mb-4 card">
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="contactFormFullName">Full Name</label>
+                  <input type="email" class="form-control" id="contactFormFullName" placeholder="Enter your full name">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="contactFormEmail">Email address</label>
+                  <input type="email" class="form-control" id="contactFormEmail" placeholder="Enter your email address">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="contactFormEmail">Company Name</label>
+                  <input type="text" class="form-control" id="contactFormCompany" placeholder="Enter your company name">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="contactFormEmail">Current domain (if applicable)</label>
+                  <input type="text" class="form-control" id="contactFormDomain" placeholder="Enter your current domain">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="form-group">
+                  <label for="contactFormBudget">Budget</label>
+                  <div class="input-group">
                           <div class="input-group-prepend"><span class="input-group-text">$</span></div>
-                          <input type="text" class="form-control text-right" id="modalPrice" placeholder="0" disabled>
-                          <div class="input-group-append"><span class="input-group-text">.00</span></div>
-                        </div>
-                      </div>
-                      <button id="paymentSubmit" data-amount="45" class="subscribe btn btn-primary btn-block" type="button"> Confirm </button>
-                      <div class="text-center mt-3">
-                        <small><i class="fa fa-lock"></i> Secured with 256-bit encryption</small>
-                      </div>
-                    </form>
-                  </div> <!-- tab-pane.// -->
-                  <div class="tab-pane fade" id="nav-tab-paypal">
-                    <p>Paypal is the easiest way to pay online</p>
-                    <p>
-                      
-                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                        <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="NKNBNTTPJBLXC">
-                        <button name="submit" class="btn btn-primary"> <i class="fab fa-paypal"></i> Pay via Paypal
-                        </button>
-                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </p>
-                    <!--<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor
-                      incididunt ut labore et dolore magna aliqua. </p>-->
-                  </div>
-                  <div class="tab-pane fade" id="nav-tab-bank">
-                    <p>Bank account details</p>
-                    <dl class="param">
-                      <dt>BANK: </dt>
-                      <dd>LLOYDS BANK</dd>
-                    </dl>
-                    <dl class="param">
-                      <dt>Account number: </dt>
-                      <dd>34348860</dd>
-                    </dl>
-                    <dl class="param">
-                      <dt>IBAN: </dt>
-                      <dd>GB68LOYD30667734348860</dd>
-                    </dl>
-                    <dl class="param">
-                        <dt>BIC: </dt>
-                        <dd>LOYDGB21694</dd>
-                      </dl>
-                    <dl class="param">
-                        <dt>PAYMENT REFERENCE: </dt>
-                        <dd>CONSULTING</dd>
-                      </dl>
-                    <!--<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor
-                      incididunt ut labore et dolore magna aliqua. </p>-->
-                  </div> <!-- tab-pane.// -->
-                </div> <!-- tab-content .// -->
-    
-              </div> <!-- card-body.// -->
-            </article> <!-- card.// -->
-          </div>
-        </div>
-      </div>
-
-      <!-- Contact Section -->
-      <div id="contact" class="contact section-invert py-4">
-        <h3 class="section-title text-center m-5">Contact Us</h3>
-        <div class="container py-4">
-          <div class="row justify-content-md-center px-4">
-            <div class="contact-form col-sm-12 col-md-10 col-lg-7 p-4 mb-4 card">
-              <form>
-                <div class="row">
-                  <div class="col-md-6 col-sm-12">
-                    <div class="form-group">
-                      <label for="contactFormFullName">Full Name</label>
-                      <input type="email" class="form-control" id="contactFormFullName" placeholder="Enter your full name">
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="form-group">
-                      <label for="contactFormEmail">Email address</label>
-                      <input type="email" class="form-control" id="contactFormEmail" placeholder="Enter your email address">
-                    </div>
+                    <input type="number" value="1000" min="0" step="1" data-number-to-fixed="2"
+                      data-number-stepfactor="100" class="form-control currency" id="contactFormBudget" />
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Message</label>
-                        <textarea id="exampleInputEmail1" class="form-control mb-4" rows="10" placeholder="Enter your message..." name="message"></textarea>
-                    </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <div class="input-group-prepend">
+                    <label for="contactFormPackage">Package</label>
                   </div>
+                  <select class="custom-select" id="contactFormPackage">
+                    <option selected>Choose a package</option>
+                    <option value="1">Landing Page</option>
+                    <option value="2">Custom Site</option>
+                    <option value="3">Rebuild</option>
+                  </select>
                 </div>
-                <input class="btn btn-primary btn-pill d-flex ml-auto mr-auto" type="submit" value="Send Your Message">
-              </form>
+
+              <div class="col-12">
+                <label>Extras</label>
+                <div class="form-group">
+                  <label class="checkbox-inline mr-4"><input type="checkbox" value=""> SEO Optimisation</label>
+                  <label class="checkbox-inline mr-4"><input type="checkbox" value=""> Email Marketing</label>
+                  <label class="checkbox-inline mr-4"><input type="checkbox" value=""> Copywriting</label>
+                  <label class="checkbox-inline mr-4"><input type="checkbox" value=""> PPC Advertising</label>
+                </div>
+              </div>
             </div>
-          </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="contactFormMessage">Message</label>
+                  <textarea id="contactFormMessage" class="form-control mb-2" rows="10" placeholder="Enter your message..."
+                    name="message" maxlength="400"></textarea><span class="text-grey" id='remaining'></span>
+                </div>
+              </div>
+            </div>
+            <input class="btn btn-primary btn-pill d-flex ml-auto mr-auto" type="submit" value="Send Your Message">
+          </form>
+          <a class="text-grey text-center mt-2" href="tel:4048916248">Call direct (404) 891-6248</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- / Contact Section -->
+
+  <!-- Footer Section -->
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/hexagon.svg" class="mr-2" alt="Shards - Agency Landing Page">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="terms.html">Terms &amp; Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cookie.html">Cookie Policy</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- / Contact Section -->
+    </nav>
+  </footer>
+  <!-- / Footer Section -->
 
-      <!-- Footer Section -->
-      <footer>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="images/hexagon.svg" class="mr-2" alt="Shards - Agency Landing Page">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                            <a class="nav-link" href="privacy.html">Privacy Policy</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="cookie.html">Cookie Policy</a>
-                          </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </footer>
-      <!-- / Footer Section -->
+  <!-- JavaScript Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-      <!-- JavaScript Dependencies -->
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js"></script>
-      <script src="js/main.js"></script>
-    </body>
 </html>
-

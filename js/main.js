@@ -84,3 +84,20 @@ $('#paymentModal').on('show.bs.modal', function (event) {
     });
   });
   
+  $(document).ready(function() {
+    var len = 0;
+    var maxchar = 400;
+  
+    $('#contactFormMessage').keyup(function(){
+      len = this.value.length
+      if(len > maxchar){
+          return false;
+      }
+      else if (len > 0) {
+          $("#remaining").html( "Remaining characters: " +( maxchar - len ) );
+      }
+      else {
+          $("#remaining").html( "Remaining characters: " +( maxchar ) );
+      }
+    })
+  });
